@@ -1,0 +1,9 @@
+dplyr
+emmeans
+ggplot2
+lme4
+lmerTest
+purrr
+readr
+scales
+tidyr

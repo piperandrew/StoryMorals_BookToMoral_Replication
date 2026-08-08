@@ -1,0 +1,4 @@
+model_a,model_b,model_pair,n_morals,mean_overlap,proportion_overlap_3,proportion_overlap_2,proportion_overlap_1,proportion_overlap_0
+Claude,GPT,Claude vs GPT,250,1.976,0.244,0.504,0.236,0.016
+Claude,Gemini,Claude vs Gemini,250,2.008,0.232,0.568,0.176,0.024
+Gemini,GPT,Gemini vs GPT,250,2.044,0.276,0.504,0.208,0.012

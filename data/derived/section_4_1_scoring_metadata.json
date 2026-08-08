@@ -1,0 +1,18 @@
+{
+  "analysis": "paper Section 4.1 all-pairs cosine scoring",
+  "input_file": "story_morals.csv",
+  "input_sha256": "d5e14d56412c3675836c1e5258606ec5244ec406db9162bcea4bd80a240732c1",
+  "input_rows": 8685,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "normalized_embeddings": true,
+  "python": "3.12.2",
+  "numpy": "1.26.4",
+  "pandas": "2.2.1",
+  "sentence_transformers": "4.0.2",
+  "output_rows": {
+    "section_4_1_cross_input_pairs_all.csv": 37665,
+    "section_4_1_cross_model_pairs_all.csv": 25110,
+    "section_4_1_within_full_text_pairs.csv": 2250
+  }
+}

@@ -1,0 +1,491 @@
+book_id,Class,mean_similarity,n_set_comparisons,change_type
+00000403.txt,LOWLIB,0.32591439721484977,9,input_change
+00000450.txt,LOWLIB,0.34521287744059975,9,input_change
+00000581.txt,LOWLIB,0.33620986213654647,9,input_change
+00001400.txt,LOWLIB,0.36806695429999153,9,input_change
+00001641.txt,LOWLIB,0.31117270360298366,9,input_change
+00001944.txt,LOWLIB,0.38865377340051865,9,input_change
+00002167.txt,LOWLIB,0.3049827545858276,9,input_change
+00002194.txt,LOWLIB,0.3016808025975838,9,input_change
+00002241.txt,LOWLIB,0.31219866322238504,9,input_change
+00002360.txt,LOWLIB,0.27292843268793304,9,input_change
+00002361.txt,LOWLIB,0.36955906653109893,9,input_change
+00002423.txt,LOWLIB,0.37546122046532454,9,input_change
+00002589.txt,LOWLIB,0.24251177180328487,9,input_change
+00002688.txt,LOWLIB,0.34483951955665776,9,input_change
+00002697.txt,LOWLIB,0.31623758173283234,9,input_change
+00002703.txt,LOWLIB,0.3189556913013444,9,input_change
+00002769.txt,LOWLIB,0.31217663220049424,9,input_change
+00002786.txt,LOWLIB,0.3178853804912464,9,input_change
+00002830.txt,LOWLIB,0.27341226272193003,9,input_change
+00002862.txt,LOWLIB,0.36335837684663724,9,input_change
+00002978.txt,LOWLIB,0.35982490744855666,9,input_change
+00003026.txt,LOWLIB,0.3036126410933556,9,input_change
+00003039.txt,LOWLIB,0.3398742662903703,9,input_change
+00003204.txt,LOWLIB,0.3600090441328508,9,input_change
+00003206.txt,LOWLIB,0.28716776085396606,9,input_change
+00003237.txt,LOWLIB,0.3583472219790206,9,input_change
+00003293.txt,LOWLIB,0.33989376813909156,9,input_change
+00003334.txt,LOWLIB,0.3741586675154574,9,input_change
+00003482.txt,LOWLIB,0.36192549544352076,9,input_change
+00003553.txt,LOWLIB,0.3255389700241295,9,input_change
+00003621.txt,LOWLIB,0.32294141225240847,9,input_change
+00003623.txt,LOWLIB,0.38036492890045964,9,input_change
+00003716.txt,LOWLIB,0.3386220742063022,9,input_change
+00003784.txt,LOWLIB,0.3777743893457048,9,input_change
+00003804.txt,LOWLIB,0.34812007780060356,9,input_change
+00003809.txt,LOWLIB,0.33405588162534033,9,input_change
+00004073.txt,LOWLIB,0.30487959887142535,9,input_change
+00004129.txt,LOWLIB,0.33478674306361766,9,input_change
+00004283.txt,LOWLIB,0.34812514079205786,9,input_change
+00004314.txt,LOWLIB,0.3145872777166926,9,input_change
+00004419.txt,LOWLIB,0.3498989006987325,9,input_change
+00004495.txt,LOWLIB,0.3893433559088059,9,input_change
+00004505.txt,LOWLIB,0.29163384350177685,9,input_change
+00004532.txt,LOWLIB,0.3467670135475971,9,input_change
+00004559.txt,LOWLIB,0.31752511031097835,9,input_change
+00004561.txt,LOWLIB,0.30729459810220167,9,input_change
+00004732.txt,LOWLIB,0.3499313729044832,9,input_change
+00010032.txt,LOWLIB,0.25205299794030045,9,input_change
+00010078.txt,LOWLIB,0.3312812904700821,9,input_change
+00010080.txt,LOWLIB,0.309454474736143,9,input_change
+105_Persuasion.txt,SUPER,0.3645671448313896,9,input_change
+11_Alice in Wonderland.txt,SUPER,0.3406012295572846,9,input_change
+1200_Gargantua and Pantagruel.txt,SUPER,0.27455659969537344,9,input_change
+121_Northanger Abbey.txt,SUPER,0.3478057543620651,9,input_change
+12431_The Coquette.txt,SUPER,0.3878462119602863,9,input_change
+1257_The Three Musketeers.txt,SUPER,0.36007793581136216,9,input_change
+1260_Jane Eyre.txt,SUPER,0.4178791417751783,9,input_change
+141_Mansfield Park.txt,SUPER,0.3552466655770938,9,input_change
+145_Middlemarch.txt,SUPER,0.31285311263284565,9,input_change
+146_A Little Princess.txt,SUPER,0.3883374725227003,9,input_change
+158_Emma.txt,SUPER,0.33109058412136855,9,input_change
+161_Sense and Sensibility.txt,SUPER,0.34419136577182347,9,input_change
+19337_A Christmas Carol.txt,SUPER,0.34734057828232096,9,input_change
+19942_Candide.txt,SUPER,0.35428501582807964,9,input_change
+"2001_Martel,Yann_LifeofPi_BS.txt",BEST,0.3689366121902878,9,input_change
+"2002_Kidd,SueMonk_TheSecretLifeofBees_BS.txt",BEST,0.3662995337796064,9,input_change
+"2002_Sebold,Alice_LovelyBones_BS.txt",BEST,0.36695808365389154,9,input_change
+"2003_Hosseini,Khaled_TheKiteRunner_BS.txt",BEST,0.3729829788208008,9,input_change
+"2004_Picoult,Jodi_MySistersKeeper_BS.txt",BEST,0.3222432529070863,9,input_change
+"2005_Giffin,Emily_SomethingBorrowed_BS.txt",BEST,0.31241153247286507,9,input_change
+"2005_Larsson,Stieg_TheGirlWithTheDragonTattoo_BS.txt",BEST,0.2883482010299225,9,input_change
+"2005_SafranFoer,Jonathan_ExtremelyLoudandIncrediblyClose_BS.txt",BEST,0.336879459520181,9,input_change
+"2006_Brooks,Max_WorldWarZ_BS.txt",BEST,0.3692666738305563,9,input_change
+"2006_Gruen,Sara_WaterforElephants_BS.txt",BEST,0.25683030633278836,9,input_change
+"2006_Larsson,Stieg_TheGirlWhoPlayedWithFire_BS.txt",BEST,0.2961938254259251,9,input_change
+"2006_Sparks,Nicholas_DearJohn_BS.txt",BEST,0.37876675581490554,9,input_change
+"2007_Hosseini,Khaled_AThousandSplendid_BS.txt",BEST,0.3381265331933528,9,input_change
+"2007_Larsson,Stieg_TheGirlWhoKickedThe_Hornet'sNest_BS.txt",BEST,0.3259037424016882,9,input_change
+"2007_Young,WilliamP._TheShack_BS.txt",BEST,0.4023936659465601,9,input_change
+"2007_deRosnay,Tatiana_SarahsKey_BS.txt",BEST,0.34629498376154605,9,input_change
+"2008_Meyer,Stephanie_TheHost_BS.txt",BEST,0.3816434023556886,9,input_change
+"2008_Shaffer,MaryAnn_TheGuernseyLiteraryandPotatoPeelPie_BS.txt",BEST,0.33633859722334664,9,input_change
+"2008_Sparks,Nicholas_TheLuckyOne_BS.txt",BEST,0.3163962863661625,9,input_change
+"2008_Stein,Garth_TheArtofRacingintheRain_BS.txt",BEST,0.29467321736853064,9,input_change
+"2009_Brown,Dan_TheLostSymbol_BS.txt",BEST,0.3498469169171136,9,input_change
+"2009_Nicholls,David_OneDay_BS.txt",BEST,0.31028607855608437,9,input_change
+"2009_Sparks,Nicholas_TheLastSong_BS.txt",BEST,0.3205602471659213,9,input_change
+"2009_Stockett,Kathryn_TheHelp_BS.txt",BEST,0.3669441796747255,9,input_change
+"2009_Verghese,Abraham_CuttingforStone_BS.txt",BEST,0.3466617053857556,9,input_change
+"2010_Frey,JM_Triptych_SF.txt",LOWRATE,0.34935652023112335,9,input_change
+"2010_Maberry,Jonathan_RotandRuin_SF.txt",LOWRATE,0.3198136648301173,9,input_change
+"2010_Sparks,Nicholas_SafeHaven_BS.txt",BEST,0.3642147761988051,9,input_change
+"2011_Bear,Elizabeth_Grail_SF.txt",LOWRATE,0.30093046261664524,9,input_change
+"2011_James,EL_FiftyShadesofGrey_BS.txt",BEST,0.35216138383120665,9,input_change
+"2011_King,Stephen_112263_BS.txt",BEST,0.31423820978329503,9,input_change
+"2011_Martin,George_ADancewithDragons_BS.txt",BEST,0.2714347115453379,9,input_change
+"2011_Mayer,AndrewP_HeartsofSmokeandStream_SF.txt",LOWRATE,0.2742063890061813,9,input_change
+"2011_Morgenstern,Erin_NightCircus_BS.txt",BEST,0.3128048166816617,9,input_change
+"2011_Nickle,David_Eutopia_SF.txt",LOWRATE,0.34168781956404815,9,input_change
+"2011_Rothfuss,Patrick_WiseMansFear_BS.txt",BEST,0.28014334935097046,9,input_change
+"2011_Shean,Michael_ShadowofaDeadStar_SF.txt",LOWRATE,0.2698018647454403,9,input_change
+"2011_Slonczewski,Joan_TheHighestFrontier_SF.txt",LOWRATE,0.28195286349014,9,input_change
+"2011_Stross,Charles_Rule34_SF.txt",LOWRATE,0.25888876856109244,9,input_change
+"2011_Vicary,Tim_BoldCounsel_MY.txt",LOWRATE,0.3330127383455818,9,input_change
+"2012_Day,Sylvia_BaredtoYou_BS.txt",BEST,0.37839800708087873,9,input_change
+"2012_Day,Sylvia_ReflectedinYou_BS.txt",BEST,0.3822667243672006,9,input_change
+"2012_Flynn,Gillian_GoneGirl_BS.txt",BEST,0.30815705194793364,9,input_change
+"2012_Frazier,LA_BackontheMarket_MY.txt",LOWRATE,0.30184976528916097,9,input_change
+"2012_Hoover,Colleen_Hopeless_BS.txt",BEST,0.339893024460769,9,input_change
+"2012_James,EL_FiftyShadesFreed_BS.txt",BEST,0.4143238407042292,9,input_change
+"2012_James,EL_FiftyShades_Darker_BS.txt",BEST,0.33098580485876694,9,input_change
+"2012_Rowling,JK_TheCasualVacancy_BS.txt",BEST,0.29403641309451173,9,input_change
+"2012_Semple,Maria_WheredYouGoBernadette_BS.txt",BEST,0.26639823974282656,9,input_change
+"2012_Stedman,ML_LightBetweenOceans_BS.txt",BEST,0.3509608921997341,9,input_change
+"2013_Brown,Dan_Inferno_BS.txt",BEST,0.30985042581587663,9,input_change
+"2013_Galbraith,Robert_TheCuckoosCalling_BS.txt",BEST,0.29783851506165515,9,input_change
+"2013_Hosseini,Khaled_AndtheMountainsEchoed_BS.txt",BEST,0.3305948934069386,9,input_change
+"2013_Karsak,Melanie_ChasingtheStarGarden_SF.txt",LOWRATE,0.24775597386430076,9,input_change
+"2013_Kline,ChristinaBaker_OrphanTrain_BS.txt",BEST,0.34909940630565456,9,input_change
+"2013_Monk,Devon_ColdCopper_SF.txt",LOWRATE,0.2809946958297565,9,input_change
+"2013_Moriarty,Liane_TheHusbandsSecret_BS.txt",BEST,0.3381636093060176,9,input_change
+"2013_Raimondo,Lynne_DantesWood_MY.txt",LOWRATE,0.2996070717955813,9,input_change
+"2013_Tartt,Donna_The_Goldfinch_BS.txt",BEST,0.3237818896218582,9,input_change
+"2013_Tyson,Wendy_KillerImage_MY.txt",LOWRATE,0.2958513061389511,9,input_change
+"2014_Aguirre,AA_SilverMirrors_SF.txt",LOWRATE,0.2599539452312905,9,input_change
+"2014_Dougherty,Victoria_TheBoneChurch_MY.txt",LOWRATE,0.3332933494706213,9,input_change
+"2014_Herbert,Brian_HellholeInferno_SF.txt",LOWRATE,0.35322187031492774,9,input_change
+"2014_Hile,Christiaan_Deception_SF.txt",LOWRATE,0.29146889716754726,9,input_change
+"2014_Hile,Christiaan_War267_SF.txt",LOWRATE,0.30299649396796285,9,input_change
+"2014_Hinton,Lynne_SisterEvePrivateEye_MY.txt",LOWRATE,0.2767774729449072,9,input_change
+"2014_Karsak,Melanie_ChasingtheGreenFairy_SF.txt",LOWRATE,0.27337866911181696,9,input_change
+"2014_Lashner,William_Bagmen_MY.txt",LOWRATE,0.24650379215125684,9,input_change
+"2014_Murphy,Hunter_ImogeneinNewOrleans_MY.txt",LOWRATE,0.2905067685117692,9,input_change
+"2014_Nolen,RL_DeadlyThyme_MY.txt",LOWRATE,0.30459682321474874,9,input_change
+"2014_Raimondo,Lynne_DantesPoison_MY.txt",LOWRATE,0.2856592681419886,9,input_change
+"2014_Turner,Stevie_AHouseWithoutWindows_MY.txt",LOWRATE,0.31351675569183296,9,input_change
+"2015_Greenfeld,KarlTaro_TheSubprimes_SF.txt",LOWRATE,0.320528991566396,9,input_change
+"2015_Hinton,Lynne_TheCaseoftheSinCitySister_MY.txt",LOWRATE,0.3046360915457761,9,input_change
+"2015_Jaff,Sophie_LoveisRed_MY.txt",LOWRATE,0.30375358926845186,9,input_change
+"2015_Juba,Stacy_DarkBeforeDawn_MY.txt",LOWRATE,0.33404660914783124,9,input_change
+"2015_Keyes,Greg_FootstepsintheSky_SF.txt",LOWRATE,0.3195324897950078,9,input_change
+"2015_Lord,Karen_TheGalaxyGame_SF.txt",LOWRATE,0.2899585356360968,9,input_change
+"2015_Rotter,Jeffrey_TheOnlyWords_SF.txt",LOWRATE,0.28244556541796084,9,input_change
+"2015_Salvalaggio,Karin_BurntRiver_MY.txt",LOWRATE,0.33172416420262535,9,input_change
+"2015_Tyson,Wendy_DyingBrand_MY.txt",LOWRATE,0.3085128238171707,9,input_change
+"2015_William,EliKP_CashCrashJubilee_SF.txt",LOWRATE,0.29546375177156775,9,input_change
+"2016_Bedford,Kelly_ALightintheDark_SF.txt",LOWRATE,0.2977176250682937,9,input_change
+"2016_Breen,Susan_MaggieDovesDetectiveAgency_MY.txt",LOWRATE,0.2779818820640629,9,input_change
+"2016_Castle,Jack_WhiteDeath_MY.txt",LOWRATE,0.2876228800986284,9,input_change
+"2016_Crouch,Blake_DarkMatter_BS.txt",BEST,0.3135390849209126,9,input_change
+"2016_Dolamore,Jaclyn_TheSorcerersConcubine_MY.txt",LOWRATE,0.29613328812482914,9,input_change
+"2016_Golden,Alison_Stolen_MY.txt",LOWRATE,0.29296298223881073,9,input_change
+"2016_Healy,MarkR_DawnofProcyon_SF.txt",LOWRATE,0.30101753063040015,9,input_change
+"2016_Houghton,Jude_Autonomy_SF.txt",LOWRATE,0.27490845331807195,9,input_change
+"2016_Jensen,Louise_TheGift_MY.txt",LOWRATE,0.3195308898518115,9,input_change
+"2016_Marsden,Monty_Missing_MY.txt",LOWRATE,0.3064242400412942,9,input_change
+"2016_Picoult,Jodi_SmallGreatThings_BS.txt",BEST,0.3408197682856778,9,input_change
+"2016_Raven,James_TheDepraved_MY.txt",LOWRATE,0.33148857670617693,9,input_change
+"2016_RussellFearn,John_TheFiveMatchboxes_MY.txt",LOWRATE,0.28721787316011793,9,input_change
+"2016_Sterling,Bruce_PirateUtopia_SF.txt",LOWRATE,0.278183662597044,9,input_change
+"2016_Thompson,Eric_LikeStarsinHeaven_SF.txt",LOWRATE,0.3064908118987525,9,input_change
+"2016_Towles,Amor_AGentlemaninMoscow_BS.txt",BEST,0.3424536539816562,9,input_change
+2153_Mary Barton.txt,SUPER,0.39070988290103864,9,input_change
+219_Heart of Darkness.txt,SUPER,0.3868952340181963,9,input_change
+233_Sister Carrie.txt,SUPER,0.28864126684673036,9,input_change
+244_A Study in Scarlet.txt,SUPER,0.28174927136228406,9,input_change
+24_O Pioneers.txt,SUPER,0.33133424878304385,9,input_change
+2500_Siddhartha.txt,SUPER,0.36367098334026926,9,input_change
+2527_The Sorrows of Young Werther.txt,SUPER,0.37213078178005454,9,input_change
+25344_The Scarlet Letter.txt,SUPER,0.4398915738235285,9,input_change
+2667_The Vicar of Wakefield.txt,SUPER,0.4079556465148926,9,input_change
+27780_Treasure Island.txt,SUPER,0.2946737837161363,9,input_change
+27805_The Wind in the Willows.txt,SUPER,0.3334635819917844,9,input_change
+28054_The Brothers Karamazov.txt,SUPER,0.34158404589987096,9,input_change
+2833_The Portrait of a Lady.txt,SUPER,0.303071124939087,9,input_change
+284_The House of Mirth.txt,SUPER,0.30227103686811013,9,input_change
+2852_The Hound of the Baskervilles.txt,SUPER,0.33227282367002814,9,input_change
+2946_Howards End.txt,SUPER,0.306708391893793,9,input_change
+3289_The Valley of Fear.txt,SUPER,0.2784555925079334,9,input_change
+345_Dracula.txt,SUPER,0.41469069942831993,9,input_change
+3825_Pygmalion.txt,SUPER,0.3136644433999871,9,input_change
+41445_Frankenstein.txt,SUPER,0.4033828497300913,9,input_change
+43936_The Wonderful Wizard of Oz.txt,SUPER,0.30856437383242596,9,input_change
+463_The Red Badge of Courage.txt,SUPER,0.37517909052563303,9,input_change
+507_Adam Bede.txt,SUPER,0.36736288317191745,9,input_change
+514_Little Women.txt,SUPER,0.36591980578722777,9,input_change
+5658_Lord Jim.txt,SUPER,0.36466937024652224,9,input_change
+6053_Evelina.txt,SUPER,0.33991301087317644,9,input_change
+6626_Therese Raquin.txt,SUPER,0.354927803999112,9,input_change
+6688_The Mill on the Floss.txt,SUPER,0.3710953896796262,9,input_change
+730_Oliver Twist.txt,SUPER,0.33707073950611144,9,input_change
+766_David Copperfield.txt,SUPER,0.3439654225000629,9,input_change
+768_Wuthering Heights.txt,SUPER,0.35439115403978916,9,input_change
+77_The House of the Seven Gables.txt,SUPER,0.31415285961127576,9,input_change
+910_White Fang.txt,SUPER,0.3921893980400062,9,input_change
+974_The Secret Agent.txt,SUPER,0.3599901745716731,9,input_change
+98_A Tale of Two Cities.txt,SUPER,0.34299297630786896,9,input_change
+DE_DasLiedVomEnde.txt,WORLD,0.2696645147178644,9,input_change
+DE_DerDorfgeschichte.txt,WORLD,0.2730429808574694,9,input_change
+DE_DerGottJenesSommers.txt,WORLD,0.32277328658986976,9,input_change
+DE_Fels.txt,WORLD,0.38755820958334725,9,input_change
+DE_KuhnHatZuTun.txt,WORLD,0.294195891438443,9,input_change
+DE_Liebwies.txt,WORLD,0.29192156721780327,9,input_change
+DE_MikadoWalder.txt,WORLD,0.26597098872801406,9,input_change
+DE_SchwarzerSeptember.txt,WORLD,0.2910989088661693,9,input_change
+DE_WilderGruneStadt.txt,WORLD,0.2795751146328302,9,input_change
+DE_WohinWirGehen.txt,WORLD,0.2750731286259345,9,input_change
+DK_DeKendte.txt,WORLD,0.30202879880865413,9,input_change
+DK_DenTavskeEnke.txt,WORLD,0.3148296015498079,9,input_change
+DK_EfterhandenMulighedForSol.txt,WORLD,0.24928070273664263,9,input_change
+DK_Havet.txt,WORLD,0.30328770308398906,9,input_change
+DK_HvordanMan.txt,WORLD,0.335229509866532,9,input_change
+DK_MandenIHuset.txt,WORLD,0.2903417162137267,9,input_change
+DK_MandenITreDele.txt,WORLD,0.3020170564636772,9,input_change
+DK_NattensUdyr.txt,WORLD,0.2880276444333571,9,input_change
+DK_PigenFraDenFranskeSkole.txt,WORLD,0.3681385360750151,9,input_change
+DK_TernetNinja2.txt,WORLD,0.3071472383575675,9,input_change
+JP_AkumaNoTorikku.txt,WORLD,0.29175734731518194,9,input_change
+JP_BashireusuRyofuDen.txt,WORLD,0.2620293077679328,9,input_change
+JP_Chenji!.txt,WORLD,0.3104180312818951,9,input_change
+JP_HashiruOtokoShosetsuKanakuriShiso.txt,WORLD,0.3314620352085726,9,input_change
+JP_NatsuSoraShiroHana.txt,WORLD,0.29676666102705546,9,input_change
+JP_OshiMoyu.txt,WORLD,0.2800224962425821,9,input_change
+JP_Shiki.txt,WORLD,0.2886601513550605,9,input_change
+JP_TaigokuSaigoSeiranFu.txt,WORLD,0.30887224893143145,9,input_change
+JP_TenshiMoKaibutsuMoNemuruYoru.txt,WORLD,0.2610630247236034,9,input_change
+MX_AdiosTomasa.txt,WORLD,0.34232954772902124,9,input_change
+MX_AllSinatra.txt,WORLD,0.3016184925757073,9,input_change
+MX_CincoEsquinas.txt,WORLD,0.28417283144814,9,input_change
+MX_ElMercurio.txt,WORLD,0.30523090138111586,9,input_change
+MX_LaCaida.txt,WORLD,0.32628764322510473,9,input_change
+MX_Olegaroy.txt,WORLD,0.3063392801049315,9,input_change
+MX_PlasmaExpres.txt,WORLD,0.2689035036543637,9,input_change
+MX_Quizas.txt,WORLD,0.25626706883863165,9,input_change
+MX_YaNada.txt,WORLD,0.3270797300853847,9,input_change
+TR_Abidin.txt,WORLD,0.29611988126495736,9,input_change
+TR_Adem.txt,WORLD,0.333611919556135,9,input_change
+TR_AskVeIsyan.txt,WORLD,0.3120418293976489,9,input_change
+TR_Degisim.txt,WORLD,0.3194862627596767,9,input_change
+TR_Eflatun.txt,WORLD,0.2939764253427217,9,input_change
+TR_EvvelBahar.txt,WORLD,0.36252065030512987,9,input_change
+TR_KorMagara.txt,WORLD,0.35465259307328567,9,input_change
+TR_SeninMeliha.txt,WORLD,0.3170255442828308,9,input_change
+TR_Vadi.txt,WORLD,0.3513038621318561,9,input_change
+TR_Yeniceri.txt,WORLD,0.3067055034140746,9,input_change
+00000403.txt,LOWLIB,0.3281667533756038,9,model_change
+00000450.txt,LOWLIB,0.3417918903316245,9,model_change
+00000581.txt,LOWLIB,0.3442536744254607,9,model_change
+00001400.txt,LOWLIB,0.36908447208963796,9,model_change
+00001641.txt,LOWLIB,0.3022409577704506,9,model_change
+00001944.txt,LOWLIB,0.4003820940852165,9,model_change
+00002167.txt,LOWLIB,0.3242217043851629,9,model_change
+00002194.txt,LOWLIB,0.29662964391855545,9,model_change
+00002241.txt,LOWLIB,0.3200299330515626,9,model_change
+00002360.txt,LOWLIB,0.3250809738665451,9,model_change
+00002361.txt,LOWLIB,0.32229403571950066,9,model_change
+00002423.txt,LOWLIB,0.38091354939028804,9,model_change
+00002589.txt,LOWLIB,0.28119607692883336,9,model_change
+00002688.txt,LOWLIB,0.32975516578665487,9,model_change
+00002697.txt,LOWLIB,0.317001467179737,9,model_change
+00002703.txt,LOWLIB,0.3161228150129318,9,model_change
+00002769.txt,LOWLIB,0.31272864203762124,9,model_change
+00002786.txt,LOWLIB,0.3098120028038084,9,model_change
+00002830.txt,LOWLIB,0.290219472606241,9,model_change
+00002862.txt,LOWLIB,0.3497675905625025,9,model_change
+00002978.txt,LOWLIB,0.3406031117947013,9,model_change
+00003026.txt,LOWLIB,0.29738234259464125,9,model_change
+00003039.txt,LOWLIB,0.326168392451457,9,model_change
+00003204.txt,LOWLIB,0.3297147007636082,9,model_change
+00003206.txt,LOWLIB,0.3118062711976193,9,model_change
+00003237.txt,LOWLIB,0.35704068471620115,9,model_change
+00003293.txt,LOWLIB,0.34116732154363466,9,model_change
+00003334.txt,LOWLIB,0.3777850981295845,9,model_change
+00003482.txt,LOWLIB,0.37096592048068106,9,model_change
+00003553.txt,LOWLIB,0.2956154678062892,9,model_change
+00003621.txt,LOWLIB,0.34652151516926144,9,model_change
+00003623.txt,LOWLIB,0.3505816086206907,9,model_change
+00003716.txt,LOWLIB,0.34258306164432456,9,model_change
+00003784.txt,LOWLIB,0.3686961905087954,9,model_change
+00003804.txt,LOWLIB,0.34227560294999015,9,model_change
+00003809.txt,LOWLIB,0.3083194968417103,9,model_change
+00004073.txt,LOWLIB,0.328755144075847,9,model_change
+00004129.txt,LOWLIB,0.3203467671517972,9,model_change
+00004283.txt,LOWLIB,0.3551185698604878,9,model_change
+00004314.txt,LOWLIB,0.3383411305186189,9,model_change
+00004419.txt,LOWLIB,0.35780645658572513,9,model_change
+00004495.txt,LOWLIB,0.3826237099222195,9,model_change
+00004505.txt,LOWLIB,0.2829959303324605,9,model_change
+00004532.txt,LOWLIB,0.35190300339901887,9,model_change
+00004559.txt,LOWLIB,0.28646155842292453,9,model_change
+00004561.txt,LOWLIB,0.3204460346404417,9,model_change
+00004732.txt,LOWLIB,0.32638857633243373,9,model_change
+00010032.txt,LOWLIB,0.29009753106920805,9,model_change
+00010078.txt,LOWLIB,0.32626351511772766,9,model_change
+00010080.txt,LOWLIB,0.3140476958159311,9,model_change
+105_Persuasion.txt,SUPER,0.35152456679461913,9,model_change
+11_Alice in Wonderland.txt,SUPER,0.32632075574387004,9,model_change
+1200_Gargantua and Pantagruel.txt,SUPER,0.26875851266546014,9,model_change
+121_Northanger Abbey.txt,SUPER,0.29627453029891593,9,model_change
+12431_The Coquette.txt,SUPER,0.33986925499306786,9,model_change
+1257_The Three Musketeers.txt,SUPER,0.35680675276635604,9,model_change
+1260_Jane Eyre.txt,SUPER,0.38887224815509935,9,model_change
+141_Mansfield Park.txt,SUPER,0.35501810485198176,9,model_change
+145_Middlemarch.txt,SUPER,0.31538388694142117,9,model_change
+146_A Little Princess.txt,SUPER,0.3732852989140852,9,model_change
+158_Emma.txt,SUPER,0.31164462036556667,9,model_change
+161_Sense and Sensibility.txt,SUPER,0.3276255117200407,9,model_change
+19337_A Christmas Carol.txt,SUPER,0.33363619566331676,9,model_change
+19942_Candide.txt,SUPER,0.33829846637852395,9,model_change
+"2001_Martel,Yann_LifeofPi_BS.txt",BEST,0.3563211817800263,9,model_change
+"2002_Kidd,SueMonk_TheSecretLifeofBees_BS.txt",BEST,0.3413899773156937,9,model_change
+"2002_Sebold,Alice_LovelyBones_BS.txt",BEST,0.3643831656670865,9,model_change
+"2003_Hosseini,Khaled_TheKiteRunner_BS.txt",BEST,0.3706490041481124,9,model_change
+"2004_Picoult,Jodi_MySistersKeeper_BS.txt",BEST,0.30842927944513016,9,model_change
+"2005_Giffin,Emily_SomethingBorrowed_BS.txt",BEST,0.2989660738794892,9,model_change
+"2005_Larsson,Stieg_TheGirlWithTheDragonTattoo_BS.txt",BEST,0.28034123888722173,9,model_change
+"2005_SafranFoer,Jonathan_ExtremelyLoudandIncrediblyClose_BS.txt",BEST,0.3245868757827046,9,model_change
+"2006_Brooks,Max_WorldWarZ_BS.txt",BEST,0.37700456472826593,9,model_change
+"2006_Gruen,Sara_WaterforElephants_BS.txt",BEST,0.2496422097822766,9,model_change
+"2006_Larsson,Stieg_TheGirlWhoPlayedWithFire_BS.txt",BEST,0.27951541717773604,9,model_change
+"2006_Sparks,Nicholas_DearJohn_BS.txt",BEST,0.3671210066035942,9,model_change
+"2007_Hosseini,Khaled_AThousandSplendid_BS.txt",BEST,0.32184382537264883,9,model_change
+"2007_Larsson,Stieg_TheGirlWhoKickedThe_Hornet'sNest_BS.txt",BEST,0.2980218972136945,9,model_change
+"2007_Young,WilliamP._TheShack_BS.txt",BEST,0.3902612922276244,9,model_change
+"2007_deRosnay,Tatiana_SarahsKey_BS.txt",BEST,0.35562044750025246,9,model_change
+"2008_Meyer,Stephanie_TheHost_BS.txt",BEST,0.36229044125403886,9,model_change
+"2008_Shaffer,MaryAnn_TheGuernseyLiteraryandPotatoPeelPie_BS.txt",BEST,0.3027283756269349,9,model_change
+"2008_Sparks,Nicholas_TheLuckyOne_BS.txt",BEST,0.2984481626822625,9,model_change
+"2008_Stein,Garth_TheArtofRacingintheRain_BS.txt",BEST,0.3116105510220851,9,model_change
+"2009_Brown,Dan_TheLostSymbol_BS.txt",BEST,0.3374768807495266,9,model_change
+"2009_Nicholls,David_OneDay_BS.txt",BEST,0.3138483359857842,9,model_change
+"2009_Sparks,Nicholas_TheLastSong_BS.txt",BEST,0.316364171512333,9,model_change
+"2009_Stockett,Kathryn_TheHelp_BS.txt",BEST,0.3376655442479216,9,model_change
+"2009_Verghese,Abraham_CuttingforStone_BS.txt",BEST,0.3447200093004439,9,model_change
+"2010_Frey,JM_Triptych_SF.txt",LOWRATE,0.33409169132326855,9,model_change
+"2010_Maberry,Jonathan_RotandRuin_SF.txt",LOWRATE,0.3149920541011257,9,model_change
+"2010_Sparks,Nicholas_SafeHaven_BS.txt",BEST,0.36176951192779305,9,model_change
+"2011_Bear,Elizabeth_Grail_SF.txt",LOWRATE,0.30807853724669526,9,model_change
+"2011_James,EL_FiftyShadesofGrey_BS.txt",BEST,0.35737237453828624,9,model_change
+"2011_King,Stephen_112263_BS.txt",BEST,0.3030288725355525,9,model_change
+"2011_Martin,George_ADancewithDragons_BS.txt",BEST,0.28056432748282395,9,model_change
+"2011_Mayer,AndrewP_HeartsofSmokeandStream_SF.txt",LOWRATE,0.28204191719860205,9,model_change
+"2011_Morgenstern,Erin_NightCircus_BS.txt",BEST,0.30372224943597376,9,model_change
+"2011_Nickle,David_Eutopia_SF.txt",LOWRATE,0.33760249044424223,9,model_change
+"2011_Rothfuss,Patrick_WiseMansFear_BS.txt",BEST,0.29719619016036575,9,model_change
+"2011_Shean,Michael_ShadowofaDeadStar_SF.txt",LOWRATE,0.3148785232577795,9,model_change
+"2011_Slonczewski,Joan_TheHighestFrontier_SF.txt",LOWRATE,0.2951380161591518,9,model_change
+"2011_Stross,Charles_Rule34_SF.txt",LOWRATE,0.2705603020242703,9,model_change
+"2011_Vicary,Tim_BoldCounsel_MY.txt",LOWRATE,0.32107464251694856,9,model_change
+"2012_Day,Sylvia_BaredtoYou_BS.txt",BEST,0.3555403274518472,9,model_change
+"2012_Day,Sylvia_ReflectedinYou_BS.txt",BEST,0.378579273360011,9,model_change
+"2012_Flynn,Gillian_GoneGirl_BS.txt",BEST,0.30948154085580215,9,model_change
+"2012_Frazier,LA_BackontheMarket_MY.txt",LOWRATE,0.2907576750917935,9,model_change
+"2012_Hoover,Colleen_Hopeless_BS.txt",BEST,0.34711581174238226,9,model_change
+"2012_James,EL_FiftyShadesFreed_BS.txt",BEST,0.3880105757235009,9,model_change
+"2012_James,EL_FiftyShades_Darker_BS.txt",BEST,0.3302165899931649,9,model_change
+"2012_Rowling,JK_TheCasualVacancy_BS.txt",BEST,0.3050334901537424,9,model_change
+"2012_Semple,Maria_WheredYouGoBernadette_BS.txt",BEST,0.2481509200124829,9,model_change
+"2012_Stedman,ML_LightBetweenOceans_BS.txt",BEST,0.3437463233684316,9,model_change
+"2013_Brown,Dan_Inferno_BS.txt",BEST,0.30428286522258946,9,model_change
+"2013_Galbraith,Robert_TheCuckoosCalling_BS.txt",BEST,0.3072813577306123,9,model_change
+"2013_Hosseini,Khaled_AndtheMountainsEchoed_BS.txt",BEST,0.34108531695825084,9,model_change
+"2013_Karsak,Melanie_ChasingtheStarGarden_SF.txt",LOWRATE,0.29275886052184635,9,model_change
+"2013_Kline,ChristinaBaker_OrphanTrain_BS.txt",BEST,0.33281870480672815,9,model_change
+"2013_Monk,Devon_ColdCopper_SF.txt",LOWRATE,0.2984290966005237,9,model_change
+"2013_Moriarty,Liane_TheHusbandsSecret_BS.txt",BEST,0.35565036093747177,9,model_change
+"2013_Raimondo,Lynne_DantesWood_MY.txt",LOWRATE,0.295086558494303,9,model_change
+"2013_Tartt,Donna_The_Goldfinch_BS.txt",BEST,0.3365901793226784,9,model_change
+"2013_Tyson,Wendy_KillerImage_MY.txt",LOWRATE,0.30346271690027216,9,model_change
+"2014_Aguirre,AA_SilverMirrors_SF.txt",LOWRATE,0.2964874336174057,9,model_change
+"2014_Dougherty,Victoria_TheBoneChurch_MY.txt",LOWRATE,0.33050896880435354,9,model_change
+"2014_Herbert,Brian_HellholeInferno_SF.txt",LOWRATE,0.3514364848350301,9,model_change
+"2014_Hile,Christiaan_Deception_SF.txt",LOWRATE,0.29363023590894394,9,model_change
+"2014_Hile,Christiaan_War267_SF.txt",LOWRATE,0.33450760940710705,9,model_change
+"2014_Hinton,Lynne_SisterEvePrivateEye_MY.txt",LOWRATE,0.2950923542181651,9,model_change
+"2014_Karsak,Melanie_ChasingtheGreenFairy_SF.txt",LOWRATE,0.27734721111662597,9,model_change
+"2014_Lashner,William_Bagmen_MY.txt",LOWRATE,0.26626057596302327,9,model_change
+"2014_Murphy,Hunter_ImogeneinNewOrleans_MY.txt",LOWRATE,0.27879261630184854,9,model_change
+"2014_Nolen,RL_DeadlyThyme_MY.txt",LOWRATE,0.32709650456169503,9,model_change
+"2014_Raimondo,Lynne_DantesPoison_MY.txt",LOWRATE,0.25921840477665814,9,model_change
+"2014_Turner,Stevie_AHouseWithoutWindows_MY.txt",LOWRATE,0.33058525805855976,9,model_change
+"2015_Greenfeld,KarlTaro_TheSubprimes_SF.txt",LOWRATE,0.3287460767192605,9,model_change
+"2015_Hinton,Lynne_TheCaseoftheSinCitySister_MY.txt",LOWRATE,0.30020428945620853,9,model_change
+"2015_Jaff,Sophie_LoveisRed_MY.txt",LOWRATE,0.28860023162431186,9,model_change
+"2015_Juba,Stacy_DarkBeforeDawn_MY.txt",LOWRATE,0.31082340449462703,9,model_change
+"2015_Keyes,Greg_FootstepsintheSky_SF.txt",LOWRATE,0.32285058792726495,9,model_change
+"2015_Lord,Karen_TheGalaxyGame_SF.txt",LOWRATE,0.30177453335052656,9,model_change
+"2015_Rotter,Jeffrey_TheOnlyWords_SF.txt",LOWRATE,0.25997816973630294,9,model_change
+"2015_Salvalaggio,Karin_BurntRiver_MY.txt",LOWRATE,0.3386985167952967,9,model_change
+"2015_Tyson,Wendy_DyingBrand_MY.txt",LOWRATE,0.2999856645172393,9,model_change
+"2015_William,EliKP_CashCrashJubilee_SF.txt",LOWRATE,0.3092465047943003,9,model_change
+"2016_Bedford,Kelly_ALightintheDark_SF.txt",LOWRATE,0.2953528722771156,9,model_change
+"2016_Breen,Susan_MaggieDovesDetectiveAgency_MY.txt",LOWRATE,0.31947495521586616,9,model_change
+"2016_Castle,Jack_WhiteDeath_MY.txt",LOWRATE,0.30683158025329493,9,model_change
+"2016_Crouch,Blake_DarkMatter_BS.txt",BEST,0.30738055218517046,9,model_change
+"2016_Dolamore,Jaclyn_TheSorcerersConcubine_MY.txt",LOWRATE,0.33654622788782473,9,model_change
+"2016_Golden,Alison_Stolen_MY.txt",LOWRATE,0.2740499976976418,9,model_change
+"2016_Healy,MarkR_DawnofProcyon_SF.txt",LOWRATE,0.33260763887269995,9,model_change
+"2016_Houghton,Jude_Autonomy_SF.txt",LOWRATE,0.2922878846480155,9,model_change
+"2016_Jensen,Louise_TheGift_MY.txt",LOWRATE,0.3345768799384435,9,model_change
+"2016_Marsden,Monty_Missing_MY.txt",LOWRATE,0.286081384913421,9,model_change
+"2016_Picoult,Jodi_SmallGreatThings_BS.txt",BEST,0.32935458651663346,9,model_change
+"2016_Raven,James_TheDepraved_MY.txt",LOWRATE,0.3076954181133597,9,model_change
+"2016_RussellFearn,John_TheFiveMatchboxes_MY.txt",LOWRATE,0.29054204438939507,9,model_change
+"2016_Sterling,Bruce_PirateUtopia_SF.txt",LOWRATE,0.2947302983130938,9,model_change
+"2016_Thompson,Eric_LikeStarsinHeaven_SF.txt",LOWRATE,0.2948141134815451,9,model_change
+"2016_Towles,Amor_AGentlemaninMoscow_BS.txt",BEST,0.3363325043041029,9,model_change
+2153_Mary Barton.txt,SUPER,0.40365501401233084,9,model_change
+219_Heart of Darkness.txt,SUPER,0.3748995863177158,9,model_change
+233_Sister Carrie.txt,SUPER,0.29515185211727646,9,model_change
+244_A Study in Scarlet.txt,SUPER,0.26007297267148527,9,model_change
+24_O Pioneers.txt,SUPER,0.32919027417162317,9,model_change
+2500_Siddhartha.txt,SUPER,0.3531312108223821,9,model_change
+2527_The Sorrows of Young Werther.txt,SUPER,0.3453564981435552,9,model_change
+25344_The Scarlet Letter.txt,SUPER,0.4138736958489006,9,model_change
+2667_The Vicar of Wakefield.txt,SUPER,0.4111432777142819,9,model_change
+27780_Treasure Island.txt,SUPER,0.29712640188266465,9,model_change
+27805_The Wind in the Willows.txt,SUPER,0.3040235486847383,9,model_change
+28054_The Brothers Karamazov.txt,SUPER,0.3130405744836654,9,model_change
+2833_The Portrait of a Lady.txt,SUPER,0.26029855808542096,9,model_change
+284_The House of Mirth.txt,SUPER,0.30615577442042624,9,model_change
+2852_The Hound of the Baskervilles.txt,SUPER,0.33503614871958154,9,model_change
+2946_Howards End.txt,SUPER,0.2893644406655688,9,model_change
+3289_The Valley of Fear.txt,SUPER,0.28484668890819137,9,model_change
+345_Dracula.txt,SUPER,0.39801586221581625,9,model_change
+3825_Pygmalion.txt,SUPER,0.3018884483356903,9,model_change
+41445_Frankenstein.txt,SUPER,0.36880140765397634,9,model_change
+43936_The Wonderful Wizard of Oz.txt,SUPER,0.3374519028045513,9,model_change
+463_The Red Badge of Courage.txt,SUPER,0.36878774701445194,9,model_change
+507_Adam Bede.txt,SUPER,0.37641166647275287,9,model_change
+514_Little Women.txt,SUPER,0.3529123071995046,9,model_change
+5658_Lord Jim.txt,SUPER,0.349053690922849,9,model_change
+6053_Evelina.txt,SUPER,0.33144651256777624,9,model_change
+6626_Therese Raquin.txt,SUPER,0.3266007756745374,9,model_change
+6688_The Mill on the Floss.txt,SUPER,0.3647365281243383,9,model_change
+730_Oliver Twist.txt,SUPER,0.33203471497988996,9,model_change
+766_David Copperfield.txt,SUPER,0.33125541276401943,9,model_change
+768_Wuthering Heights.txt,SUPER,0.3443204155306757,9,model_change
+77_The House of the Seven Gables.txt,SUPER,0.3103818109741917,9,model_change
+910_White Fang.txt,SUPER,0.3897825658413363,9,model_change
+974_The Secret Agent.txt,SUPER,0.33207188031555696,9,model_change
+98_A Tale of Two Cities.txt,SUPER,0.3374134567968639,9,model_change
+DE_DasLiedVomEnde.txt,WORLD,0.31573621519369843,9,model_change
+DE_DerDorfgeschichte.txt,WORLD,0.33464958767096203,9,model_change
+DE_DerGottJenesSommers.txt,WORLD,0.35179775686543663,9,model_change
+DE_Fels.txt,WORLD,0.36048696254506524,9,model_change
+DE_KuhnHatZuTun.txt,WORLD,0.2963709360747426,9,model_change
+DE_Liebwies.txt,WORLD,0.3067670522464646,9,model_change
+DE_MikadoWalder.txt,WORLD,0.28093321471946475,9,model_change
+DE_SchwarzerSeptember.txt,WORLD,0.2820849582368945,9,model_change
+DE_WilderGruneStadt.txt,WORLD,0.2748381892840068,9,model_change
+DE_WohinWirGehen.txt,WORLD,0.28958084526253336,9,model_change
+DK_DeKendte.txt,WORLD,0.29839508097480844,9,model_change
+DK_DenTavskeEnke.txt,WORLD,0.31885708560362275,9,model_change
+DK_EfterhandenMulighedForSol.txt,WORLD,0.25730881476659834,9,model_change
+DK_Havet.txt,WORLD,0.31361302319500184,9,model_change
+DK_HvordanMan.txt,WORLD,0.3051549285006376,9,model_change
+DK_MandenIHuset.txt,WORLD,0.32290465311135774,9,model_change
+DK_MandenITreDele.txt,WORLD,0.30513526499271393,9,model_change
+DK_NattensUdyr.txt,WORLD,0.2721006694583245,9,model_change
+DK_PigenFraDenFranskeSkole.txt,WORLD,0.34900120323822825,9,model_change
+DK_TernetNinja2.txt,WORLD,0.3099670621715946,9,model_change
+JP_AkumaNoTorikku.txt,WORLD,0.34569057923408203,9,model_change
+JP_BashireusuRyofuDen.txt,WORLD,0.2836601547666906,9,model_change
+JP_Chenji!.txt,WORLD,0.28208782576760394,9,model_change
+JP_HashiruOtokoShosetsuKanakuriShiso.txt,WORLD,0.3517453592316604,9,model_change
+JP_NatsuSoraShiroHana.txt,WORLD,0.27162335852138053,9,model_change
+JP_OshiMoyu.txt,WORLD,0.28769655199146565,9,model_change
+JP_Shiki.txt,WORLD,0.3044864213852971,9,model_change
+JP_TaigokuSaigoSeiranFu.txt,WORLD,0.3395353122441857,9,model_change
+JP_TenshiMoKaibutsuMoNemuruYoru.txt,WORLD,0.28127777700622875,9,model_change
+MX_AdiosTomasa.txt,WORLD,0.3742316933693709,9,model_change
+MX_AllSinatra.txt,WORLD,0.3028122122273033,9,model_change
+MX_CincoEsquinas.txt,WORLD,0.3148852876950929,9,model_change
+MX_ElMercurio.txt,WORLD,0.30639853484836627,9,model_change
+MX_LaCaida.txt,WORLD,0.3436323444784423,9,model_change
+MX_Olegaroy.txt,WORLD,0.3286096062741162,9,model_change
+MX_PlasmaExpres.txt,WORLD,0.2784335107347112,9,model_change
+MX_Quizas.txt,WORLD,0.2759987324200295,9,model_change
+MX_YaNada.txt,WORLD,0.3323021803373172,9,model_change
+TR_Abidin.txt,WORLD,0.30417232776497616,9,model_change
+TR_Adem.txt,WORLD,0.352579330496582,9,model_change
+TR_AskVeIsyan.txt,WORLD,0.34884105034080554,9,model_change
+TR_Degisim.txt,WORLD,0.3320425182213018,9,model_change
+TR_Eflatun.txt,WORLD,0.30821097835346506,9,model_change
+TR_EvvelBahar.txt,WORLD,0.3566473180681099,9,model_change
+TR_KorMagara.txt,WORLD,0.335540383870219,9,model_change
+TR_SeninMeliha.txt,WORLD,0.31825771311550966,9,model_change
+TR_Vadi.txt,WORLD,0.33240053879763976,9,model_change
+TR_Yeniceri.txt,WORLD,0.32985709993927564,9,model_change

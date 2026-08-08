@@ -1,0 +1,3 @@
+culture,reference_condition,comparison_condition,top_n,spearman_rho,top_n_shared,top_n_jaccard
+DE,full_text,chunk_summary,20,0.890607381356374,18,0.8181818181818182
+JP,full_text,chunk_summary,20,0.9031419869051994,18,0.8181818181818182

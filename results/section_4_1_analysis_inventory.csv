@@ -1,0 +1,7 @@
+analysis_table,rows,unique_books
+cross_input_pair_level,37665,250
+cross_input_set_level,4185,250
+cross_model_pair_level,25110,250
+cross_model_set_level,2790,250
+within_full_text_pair_level,2250,250
+within_full_text_set_level,750,250

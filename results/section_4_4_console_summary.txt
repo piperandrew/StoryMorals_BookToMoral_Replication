@@ -1,0 +1,7 @@
+Section 4.4 cross-cultural case study
+Books: DE=98; JP=94
+Full-text DE-JP TVD: 0.2054 (permutation p=0.001)
+Chunk: TVD=0.1796; R=0.875 [0.739, 1.150]; p=0.001
+Ensemble: TVD=0.1658; R=0.807 [0.669, 1.003]; p=0.001
+Short: TVD=0.1580; R=0.769 [0.661, 1.083]; p=0.021
+Rank agreement: DE rho=0.891; JP rho=0.903

@@ -1,0 +1,4 @@
+label_model,n_morals,mean_mode_frequency,min_mode_frequency,mean_top3_frequency
+Claude,250,1,1,0.9876
+GPT,250,0.9972,0.5,0.9373851851851852
+Gemini,250,0.9996,0.9,0.9652000000000001

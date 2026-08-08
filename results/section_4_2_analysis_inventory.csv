@@ -1,0 +1,13 @@
+quantity,value
+books,250
+sampled_morals,250
+labeling_models,3
+intended_attempts,7500
+recorded_attempts,7496
+valid_attempts,7489
+raw_label_emissions,34915
+valid_label_emissions,34607
+off_taxonomy_emissions,308
+attempts_with_no_valid_label,7
+taxonomy_labels,62
+observed_valid_labels,61

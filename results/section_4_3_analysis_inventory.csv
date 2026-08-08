@@ -1,0 +1,4 @@
+condition,books,sampled_morals,raw_emissions,recorded_attempts,valid_attempts,off_taxonomy_emissions,attempts_with_no_valid_label,core_rows
+full_text,250,250,34915,7496,7489,308,7,3290
+chunk,250,250,35346,7500,7499,244,1,3310
+plotArc,250,250,31814,7500,7493,242,7,2994
