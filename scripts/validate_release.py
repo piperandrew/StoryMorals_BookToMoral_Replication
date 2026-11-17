@@ -48,6 +48,7 @@ REQUIRED_FILES = {
     "figures/figure_3_label_consistency.pdf",
     "results/section_4_1_change_type_contrast.csv",
     "results/section_4_1_input_pair_by_class_lrt.csv",
+    "results/section_4_1_gpt_gemini_sensitivity_emmeans.csv",
     "results/section_4_2_statement_stability.csv",
     "results/section_4_2_label_discovery.csv",
     "results/section_4_3_global_fidelity.csv",
@@ -143,15 +144,27 @@ def validate() -> list[str]:
     return errors
 
 
+# Local files that are git-ignored and therefore never published (mirrors
+# .gitignore). They must stay out of the manifest, or a fresh clone fails it.
+MANIFEST_EXCLUDED_NAMES = {"MANIFEST.sha256", ".DS_Store", ".RData", ".Rhistory"}
+MANIFEST_EXCLUDED_DIRS = {
+    ".git", "__pycache__", ".Rproj.user", ".ipynb_checkpoints", ".venv",
+}
+
+
+def is_manifest_target(path: Path) -> bool:
+    rel = path.relative_to(ROOT)
+    if not path.is_file() or path.name in MANIFEST_EXCLUDED_NAMES:
+        return False
+    if path.suffix in {".pyc", ".pyo", ".pyd"}:
+        return False
+    if MANIFEST_EXCLUDED_DIRS.intersection(rel.parts):
+        return False
+    return rel.parts[:2] != ("renv", "library")
+
+
 def write_manifest() -> None:
-    targets = [
-        path for path in ROOT.rglob("*")
-        if path.is_file()
-        and path.name != "MANIFEST.sha256"
-        and path.name != ".DS_Store"
-        and "__pycache__" not in path.parts
-        and ".git" not in path.parts
-    ]
+    targets = [path for path in ROOT.rglob("*") if is_manifest_target(path)]
     lines = [f"{sha256(path)}  {path.relative_to(ROOT).as_posix()}" for path in sorted(targets)]
     (ROOT / "MANIFEST.sha256").write_text("\n".join(lines) + "\n", encoding="utf-8")
 

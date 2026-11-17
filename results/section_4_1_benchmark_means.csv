@@ -1,4 +1,4 @@
 comparison,mean_similarity,SE,lower_CI,upper_CI,role
 input_change,0.32354307702775564,0.002027724403292014,0.3195520456883837,0.3275341083671276,balanced model estimate
 model_change,0.32288530428321555,0.0020277244032920146,0.3188942729438436,0.3268763356225875,balanced model estimate
-within_full_text,0.2676993674230244,NA,NA,NA,descriptive within-condition benchmark
+within_full_text,0.2676993674230244,NA,NA,NA,descriptive within-response moral diversity (full text)

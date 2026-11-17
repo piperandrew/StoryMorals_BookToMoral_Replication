@@ -6,7 +6,10 @@
 # Unit of analysis for input comparisons:
 #   book x generating model x input pair
 #
-# Each input condition produces three morals. We score all 3 x 3 = 9
+# Each input condition produces three deliberately different morals in one
+# response. The full-text within-response benchmark measures this requested
+# diversity, not instability across independent model calls.
+# We score all 3 x 3 = 9
 # cross-condition moral pairs and average those nine cosine similarities into
 # one set-level observation. No semantic matching or pair selection is used.
 ###############################################################################
@@ -21,9 +24,20 @@ suppressPackageStartupMessages({
   library(tidyr)
 })
 
-DATA_DIR <- file.path("data", "derived")
-RESULTS_DIR <- "results"
-FIGURES_DIR <- "figures"
+# Resolve paths from either the project root or its scripts directory, including
+# when individual lines are run interactively. Do not change the working directory.
+PROJECT_ROOT <- if (dir.exists(file.path("data", "derived"))) {
+  normalizePath(".")
+} else if (dir.exists(file.path("..", "data", "derived"))) {
+  normalizePath("..")
+} else {
+  stop("Run this script from the project root or its scripts directory.",
+       call. = FALSE)
+}
+
+DATA_DIR <- file.path(PROJECT_ROOT, "data", "derived")
+RESULTS_DIR <- file.path(PROJECT_ROOT, "results")
+FIGURES_DIR <- file.path(PROJECT_ROOT, "figures")
 dir.create(RESULTS_DIR, showWarnings = FALSE, recursive = TRUE)
 dir.create(FIGURES_DIR, showWarnings = FALSE, recursive = TRUE)
 
@@ -222,6 +236,75 @@ write_csv(
 )
 
 ###############################################################################
+# SECTION 4.1C SENSITIVITY: GPT AND GEMINI ONLY
+#
+# Claude memory output is missing for 100 books, concentrated in LOWLIB,
+# LOWRATE, and WORLD, so the class-specific memory estimates above rely on few
+# Claude books plus the additive generating-model term. This refit drops Claude
+# entirely and repeats the input-pair x class model on the two generating
+# models with near-complete coverage. It is a sensitivity check, not a
+# replacement for the paper model.
+###############################################################################
+
+sensitivity_models <- c("GPT", "Gemini")
+sensitivity_data <- input_set_similarity %>%
+  filter(generating_model %in% sensitivity_models)
+assert_replication_value(nrow(sensitivity_data), 2985, "GPT/Gemini cross-input moral sets")
+
+sensitivity_no_interaction <- lmer(
+  mean_similarity ~ input_pair + generating_model + Class + (1 | book_id),
+  data = sensitivity_data,
+  REML = FALSE
+)
+sensitivity_by_class <- lmer(
+  mean_similarity ~ input_pair * Class + generating_model + (1 | book_id),
+  data = sensitivity_data,
+  REML = FALSE
+)
+
+sensitivity_lrt <- as.data.frame(anova(sensitivity_no_interaction, sensitivity_by_class))
+sensitivity_lrt$model <- c("gpt_gemini_no_interaction", "gpt_gemini_by_class")
+rownames(sensitivity_lrt) <- NULL
+write_csv(
+  sensitivity_lrt,
+  file.path(RESULTS_DIR, "section_4_1_gpt_gemini_sensitivity_lrt.csv")
+)
+
+# Side-by-side estimates: the paper model (all three generating models) and the
+# GPT/Gemini-only refit, with the number of book x model sets behind each cell.
+# Asymptotic df matches the paper model, which exceeds emmeans' default
+# Kenward-Roger limit of 3,000 observations; this refit falls below it.
+sensitivity_emmeans <- as.data.frame(
+  emmeans(sensitivity_by_class, ~ input_pair | Class, lmer.df = "asymptotic")
+) %>%
+  transmute(
+    input_pair = as.character(input_pair), Class = as.character(Class),
+    emmean_gpt_gemini = emmean, SE_gpt_gemini = SE,
+    lower_CI_gpt_gemini = asymp.LCL, upper_CI_gpt_gemini = asymp.UCL
+  )
+sensitivity_comparison <- input_pair_by_class_emmeans %>%
+  transmute(
+    input_pair = as.character(input_pair), Class = as.character(Class),
+    emmean_all_models = emmean
+  ) %>%
+  left_join(sensitivity_emmeans, by = c("input_pair", "Class")) %>%
+  left_join(
+    input_set_similarity %>%
+      mutate(input_pair = as.character(input_pair)) %>%
+      count(input_pair, Class, generating_model) %>%
+      pivot_wider(
+        names_from = generating_model, values_from = n,
+        names_prefix = "n_sets_", values_fill = 0
+      ),
+    by = c("input_pair", "Class")
+  ) %>%
+  mutate(difference = emmean_gpt_gemini - emmean_all_models)
+write_csv(
+  sensitivity_comparison,
+  file.path(RESULTS_DIR, "section_4_1_gpt_gemini_sensitivity_emmeans.csv")
+)
+
+###############################################################################
 # SECTION 4.1D: WITHIN-FULL-TEXT DIVERSITY BENCHMARK
 #
 # This is descriptive. It is not a random or chance baseline.
@@ -310,7 +393,8 @@ write_csv(
 )
 
 # Paper-facing benchmark means in one table. The within-full-text value is a
-# descriptive reference; only the input-change/model-change contrast is tested.
+# descriptive within-response diversity reference; only the
+# input-change/model-change contrast is tested.
 benchmark_means <- bind_rows(
   change_type_emmeans %>%
     transmute(
@@ -327,7 +411,7 @@ benchmark_means <- bind_rows(
     SE = NA_real_,
     lower_CI = NA_real_,
     upper_CI = NA_real_,
-    role = "descriptive within-condition benchmark"
+    role = "descriptive within-response moral diversity (full text)"
   )
 )
 write_csv(
@@ -375,8 +459,8 @@ figure_2 <- ggplot(
     linetype = "dashed", color = "grey40", linewidth = 0.5
   ) +
   annotate(
-    "text", x = 1.35, y = within_full_mean + 0.005,
-    label = "within-full-text diversity benchmark",
+    "text", x = 0.75, y = within_full_mean + 0.005, hjust = 0,
+    label = "within-response moral similarity (full text)",
     size = 3, color = "grey40"
   ) +
   geom_line(linewidth = 0.75) +
@@ -399,7 +483,14 @@ ggsave(
 cat("Section 4.1 complete.\n")
 cat("Cross-input set observations:", nrow(input_set_similarity), "\n")
 cat("Books in balanced input-vs-model benchmark:", length(benchmark_books), "\n")
-cat("Within-full-text diversity benchmark:", sprintf("%.4f", within_full_mean), "\n")
+cat("Within-response moral diversity (full text):", sprintf("%.4f", within_full_mean), "\n")
+cat("GPT/Gemini-only sensitivity, full text vs memory by class:\n")
+sensitivity_comparison %>%
+  filter(input_pair == "full_text__memory") %>%
+  transmute(Class, all_models = round(emmean_all_models, 3),
+            gpt_gemini = round(emmean_gpt_gemini, 3)) %>%
+  as.data.frame() %>%
+  print(row.names = FALSE)
 
 writeLines(
   capture.output(sessionInfo()),

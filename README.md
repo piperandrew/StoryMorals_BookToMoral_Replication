@@ -91,9 +91,16 @@ The script fits mixed models with book random intercepts.
 - Full-text/chunk similarity: 0.3388, 95% CI [0.3338, 0.3437].
 - Input sensitivity varies by class: likelihood-ratio
   chi-square(20) = 182.97, p < .001.
-- Within-full-text diversity benchmark: 0.2677.
+- Within-response moral diversity (full text): 0.2677, the mean similarity
+  among the three deliberately different morals in one full-text response.
 - Balanced input-change and model-change means are 0.3235 and 0.3229;
   difference = 0.00066, p = .593, using 245 books.
+- Sensitivity check: Claude memory output is missing for 100 books (19 LOWLIB,
+  39 LOWRATE, 42 WORLD), so the input-pair × class model is refit on GPT and
+  Gemini only (2,985 sets). Full-text/memory similarity remains highest for
+  SUPER (0.378) and lowest for LOWRATE (0.292) and WORLD (0.290); the
+  interaction persists, chi-square(20) = 135.48, p < .001. See
+  `results/section_4_1_gpt_gemini_sensitivity_*.csv`.
 
 ### 4.2 Value-labeling stability
 

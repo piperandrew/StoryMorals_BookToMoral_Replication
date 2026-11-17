@@ -1,15 +1,15 @@
 R version 4.5.3 (2026-03-11)
 Platform: aarch64-apple-darwin20
-Running under: macOS Tahoe 26.5.2
+Running under: macOS Tahoe 26.6.2
 
 Matrix products: default
 BLAS:   /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRblas.0.dylib 
 LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
 
 locale:
-[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+[1] en_CA/en_CA/en_CA/C/en_CA/en_CA
 
-time zone: America/New_York
+time zone: America/Toronto
 tzcode source: internal
 
 attached base packages:

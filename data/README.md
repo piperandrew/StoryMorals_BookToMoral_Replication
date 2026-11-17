@@ -23,7 +23,7 @@ All files are UTF-8 CSVs. Book identifiers are source filenames retained for joi
 - `title`, `author_first_name`, `author_last_name`, `publication_year`: bibliographic fields.
 - `language`, `country`, `book_class`: sampling metadata.
 - `chunk_summary`: concatenated ten-event summaries from 14,000-token chunks.
-- `plot_arc_summary`: approximately 200-word Beginning/Conflict/Ending representation.
+- `plot_arc_summary`: short Beginning/Conflict/Ending representation (mean 136 words; range 66-172).
 
 ### `story_morals.csv`
 
