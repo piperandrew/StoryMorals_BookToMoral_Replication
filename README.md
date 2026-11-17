@@ -2,7 +2,7 @@
 
 Data and code supporting **“From Book to Moral: Evaluating the stability of
 LLM-generated moral values of stories.”** This is an analysis-only,
-summary-safe release: it contains generated summaries, morals, value labels,
+Non-full-text release: it contains generated summaries, morals, value labels,
 and similarity scores, but no novel-length source texts.
 
 ## Repository contents
@@ -145,9 +145,3 @@ book.
 
 Within-culture full/chunk top-20 rank agreement is rho = 0.891 for DE and
 0.903 for JP; both cultures share 18 of 20 labels (Jaccard = 0.818).
-
-## Copyright boundary
-
-No full books are included. A condition value such as `full_text` records the
-input used to generate a moral or label; it is not a full-text field. The two
-book-summary tables contain only generated chunk, plot-arc, or short summaries.
